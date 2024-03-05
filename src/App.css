@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  background-color: #86b9e1;
+}
+
+.wrap {
+  color: #fff;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  position: relative;
+  letter-spacing: 0.05rem;
+  line-height: 1.5;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.temp-container {
+  font-size: 24px; /* Kích thước chữ cho nhiệt độ */
+}
+.wrap-city {
+  background-color: #9dbfaf;
+  width: 20%;
+  padding: 3rem 0;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 1px #888888;
+}
+.temperature {
+  font-size: 24px; /* Kích thước chữ cho nhiệt độ */
+}
+
+.unit {
+  font-size: 14px; /* Kích thước chữ cho đơn vị độ C */
+}
+form {
+  width: 100%;
+}
+.searchTerm {
+  width: 30%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 35px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+  margin-bottom: 2rem;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  width: 50px;
+  height: 48px;
+  border: 3px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 13px;
+}
+img {
+  width: 12x;
+  height: 12px;
+}
+
+.icon-weather img {
+  height: 100px;
+}
